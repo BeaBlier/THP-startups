@@ -45,13 +45,15 @@ body {
     border-top: 1px solid #c1c1c1;
     padding-right: 120px;
     padding-left: 120px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
+    padding-top: 40px;
 }
 
 .section3 > div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .section3 > div > div {
@@ -67,12 +69,11 @@ body {
 
 .section4 {
     background-color:#f0f0f0;
-    height: 300px;
+    height: 200px;
     border-top: 1px solid #c1c1c1;
-    padding-right: 120px;
-    padding-left: 120px;
-    display: flex;
-    justify-content: space-around;
+    padding-top:40px;
+    padding-bottom:40px;
+
 //    align-items: flex-end;
 }
 
@@ -83,19 +84,35 @@ body {
 
 .temoignage1 {
       width: 290px;
-      height: 190px;
+      height: 120px;
       margin: 5px;
+      padding-right: 120px;
+      padding-left: 200px;
+      display: flex;
+      justify-content: space-around;
+      padding-top: 40px;
+
 }
 
-.temoignage2 {
-    display: flex;
-    flex: auto;
-    width: 290px;
-    height: 190px;
-}
+// float:left;
 
 .section5 {
   background-color:#f96332;
-  height: 150px;
+  height: 270px;
   border-top: 1px solid #c1c1c1;
+  padding-top: 40px;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1rem;
+	line-height: 1.5em;
+	input{
+		width: 179.333px;
+		height: 34px;
+		line-height: normal;
+	}
 }
