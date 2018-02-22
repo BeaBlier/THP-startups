@@ -1,0 +1,123 @@
+/* line 1, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+body {
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 6, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.section1 {
+  width: 100%;
+  height: 120px;
+  background-color: #f96332;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 14, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+#logothp {
+  height: 35px;
+  left: 0px;
+}
+
+/* line 19, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+#liennewsletter {
+  font-size: 24px;
+  align-items: center;
+}
+
+/* line 31, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+#photo {
+  width: 100%;
+  height: 525px;
+}
+
+/* line 36, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.section2 {
+  background-image: url("https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
+/* line 43, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.section3 {
+  background-color: #f0f0f0;
+  border-top: 1px solid #c1c1c1;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-bottom: 30px;
+}
+
+/* line 51, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.section3 > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 57, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.section3 > div > div {
+  text-align: center;
+  width: 330px;
+  margin: 20px 30px 0px 30px;
+}
+
+/* line 63, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.section3 > div > div > p {
+  color: gray;
+  font-size: 16px;
+}
+
+/* line 68, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.section4 {
+  background-color: #f0f0f0;
+  height: 300px;
+  border-top: 1px solid #c1c1c1;
+  padding-right: 120px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 79, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.section4 > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 84, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.temoignage1 {
+  width: 290px;
+  height: 190px;
+  margin: 5px;
+}
+
+/* line 90, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.temoignage2 {
+  display: flex;
+  flex: auto;
+  width: 290px;
+  height: 190px;
+}
+
+/* line 97, /Users/blier/Desktop/THP/semaine7/J04/THP-startups/app/assets/stylesheets/custom.scss */
+.section5 {
+  background-color: #f96332;
+  height: 150px;
+  border-top: 1px solid #c1c1c1;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
